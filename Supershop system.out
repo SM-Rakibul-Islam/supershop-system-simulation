@@ -1,0 +1,76 @@
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: Supershop system                                            Run execution date : 4/12/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 4/12/2021
+
+Replication ended at time      : 10.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+On the way.VATimePerEntity                  .08921     (Insuf)    .07325     .09966         15    
+Agora.TotalTimePerEntity                    .11637     (Insuf)    .05017     .34602         54    
+On the way.TotalTimePerEntity               .08921     (Insuf)    .07325     .09966         15    
+Prince Bazar.TotalTimePerEntity             .04461     (Insuf)    .04112     .04870          3    
+Prince Bazar.VATimePerEntity                .04461     (Insuf)    .04112     .04870          3    
+Agora.VATimePerEntity                       .07682     (Insuf)    .05017     .09949         54    
+Agora.WaitTimePerEntity                     .03955     (Insuf)    .00000     .27966         54    
+Prince Bazar.WaitTimePerEntity              .00000     (Insuf)    .00000     .00000          3    
+Customer.VATime                             .08145     (Insuf)    .05017     .14017         69    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         69    
+Customer.WaitTime                           .03095     (Insuf)    .00000     .27966         69    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         69    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         69    
+Customer.TotalTime                          .11240     (Insuf)    .05017     .34602         69    
+Prince Bazar.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          3    
+Agora.Queue.WaitingTime                     .03955     (Insuf)    .00000     .27966         54    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .77557     (Insuf)    .00000     6.0000     .00000    
+Shopkeeper 1.NumberBusy                     .41482     (Insuf)    .00000     1.0000     .00000    
+Shopkeeper 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Shopkeeper 1.Utilization                    .41482     (Insuf)    .00000     1.0000     .00000    
+Shopkeeper 2.NumberBusy                     .01338     (Insuf)    .00000     1.0000     .00000    
+Shopkeeper 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Shopkeeper 2.Utilization                    .01338     (Insuf)    .00000     1.0000     .00000    
+Prince Bazar.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Agora.Queue.NumberInQueue                   .21355     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+On the way Number In                        15.000    
+Agora Number Out                            54.000    
+Prince Bazar Accum VA Time                  .13383    
+Prince Bazar Number In                      3.0000    
+On the way Number Out                       15.000    
+Prince Bazar Number Out                     3.0000    
+Prince Bazar Accum Wait Time                .00000    
+On the way Accum VA Time                    1.3381    
+Agora Number In                             54.000    
+Agora Accum Wait Time                       2.1354    
+Agora Accum VA Time                         4.1482    
+Customer.NumberIn                           69.000    
+Customer.NumberOut                          69.000    
+Shopkeeper 1.NumberSeized                   54.000    
+Shopkeeper 1.ScheduledUtilization           .41482    
+Shopkeeper 2.NumberSeized                   3.0000    
+Shopkeeper 2.ScheduledUtilization           .01338    
+System.NumberOut                            69.000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

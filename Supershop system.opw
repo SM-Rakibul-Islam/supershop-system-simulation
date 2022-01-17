@@ -1,0 +1,21 @@
+[RESOURCES]
+Shopkeeper 1
+Shopkeeper 2
+[VARIABLES]
+On the way.NumberIn
+Agora.NumberOut
+Prince Bazar.VATime
+Customer arrival.NumberOut
+Prince Bazar.NumberIn
+On the way.NumberOut
+Get Pepsodent toothpaste or not.NumberOut True
+Get vaseline or not.NumberOut False
+Get vaseline or not.NumberOut True
+Prince Bazar.NumberOut
+Prince Bazar.WaitTime
+On the way.VATime
+Agora.NumberIn
+Customer exit.NumberOut
+Agora.WaitTime
+Get Pepsodent toothpaste or not.NumberOut False
+Agora.VATime
